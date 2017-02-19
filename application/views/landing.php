@@ -61,11 +61,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <!-- Calculateur -->
             <div class="featurette" id="services">
-                <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-                <h2 class="featurette-heading">The Second Heading
-                    <span class="text-muted">Is Pretty Cool Too.</span>
+                <h2 class="featurette-heading">Calculatrice
+                    <span class="text-muted"></span>
                 </h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <p class="lead">
+                    <form>
+                        <label for="km_by_year">Kilométrage annuel : </label>
+                        <input type="number" min="0" max="500000" name="km_by_year" id="km_by_year" placeholder="km" /><br />
+                        <label for="gas_type">Type d'essence' : </label>
+                        <select name="gas_type">
+                            <option value="diesel">Ordinaire (octane 87)</option>
+                            <option value="diesel">Moyen (octane 87>94)</option>
+                            <option value="diesel">Super (octane 94)</option>
+                            <option value="diesel">Diesel</option>
+                        </select>
+                    </form>
+                </p>
             </div>
 
             <hr class="featurette-divider">
