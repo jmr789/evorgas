@@ -1,11 +1,2 @@
-
-
-
--Obtenir les moyens moyens annuels de l'essence (ordinaire, super, etc.)
--Obtenir coûts électricité QC
--Consommation d'électricité par kilomètre par VE
-    kWh/100km
--Consommation d'essence par kilomètre par véhicule à essence
-
 -Coût d'entretient estimé pour les différents véhicules (par année)
--Dépreciation des VE
+-Dépreciation des VE (valeur de revente)

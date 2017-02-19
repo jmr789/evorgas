@@ -7,48 +7,34 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <body>
 
-        <!-- Navigation -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Électrique vs Essence</a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a href="main/calculateur">Calculateur</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container -->
-        </nav>
-
-        <!-- Full Width Image Header -->
-        <header class="header-image">
-            <div class="headline">
-                <div class="container">
-                    <h1>Acheter électrique</h1>
-                    <h2>Est-ce vraiment avantageux ?</h2>
-                </div>
-            </div>
-        </header>
+        <?php include 'menu.php'; ?>
 
         <!-- Page Content -->
         <div class="container">
-
+            <h1>Calculateur de coûts (électrique vs essence)</h1>
             <hr class="featurette-divider">
 
-            
+            <form method="POST" action="<?php echo base_url(); ?>calculateur/afficherRésultat">
+                <div class="form-group">
+                    <label for='select_ev'>Choisir un véhicule électrique</label>
+                    <select class="form-control" id='select_ev' name='ev'>
+                        <?php foreach ($evCar as $ev) {
+                            echo '<option id="ev_' . $ev['id'] . '" value="' . $ev['id'] . '">' . $ev['name'] . '</option>';
+                        } ?>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for='select_gas'>Choisir un véhicule à essence</label>
+                    <select class="form-control" id='select_gas' name='gas'>
+                        <?php foreach ($gasCar as $gas) {
+                            echo '<option id="ev_' . $gas['id'] . '" value="' . $gas['id'] . '">' . $gas['name'] . '</option>';
+                        } ?>
+                    </select>
+                </div>
+                <input class="btn btn-primary" type="submit" value="Afficher"
+            </form>
+
+           
 
             <hr class="featurette-divider">
 

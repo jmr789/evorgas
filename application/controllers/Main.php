@@ -19,7 +19,10 @@ class Main extends CI_Controller {
 		$data['evCar'] = $evCar;
 		$data['gasCar'] = $gasCar;
 
+		$data['page_title'] = 'Coût véhicule électrique Québec';
+
 		$this->load->view('landing', $data);
 	}
+
 
 }
