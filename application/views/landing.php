@@ -60,7 +60,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <hr class="featurette-divider">
 
             <!-- Calculateur -->
-            <div class="featurette" id="services">
+            <div class="featurette" id="calculateur">
                 <h2 class="featurette-heading">Calculatrice
                     <span class="text-muted"></span>
                 </h2>
@@ -76,6 +76,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <option value="diesel">Diesel</option>
                         </select>
                     </form>
+                </p>
+                <p id="calcul_response">
+                    
                 </p>
             </div>
 
