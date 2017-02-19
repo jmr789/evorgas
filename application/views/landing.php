@@ -61,11 +61,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <!-- Calculateur -->
             <div class="featurette" id="calculateur">
-                <h2 class="featurette-heading">Calculatrice
+                <h2 class="featurette-heading">Calculateur
                     <span class="text-muted"></span>
                 </h2>
                 <p class="lead">
-                    <form>
+                    <!--<form>
                         <label for="km_by_year">Kilométrage annuel : </label>
                         <input type="number" min="0" max="500000" name="km_by_year" id="km_by_year" placeholder="km" /><br />
                         <label for="gas_type">Type d'essence' : </label>
@@ -75,10 +75,40 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <option value="diesel">Super (octane 94)</option>
                             <option value="diesel">Diesel</option>
                         </select>
-                    </form>
+                    </form>-->
                 </p>
                 <p id="calcul_response">
-                    
+                    <table class="table table-responsive table-bordered">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th><?php echo $evCar['name']; ?></th>
+                                <th><?php echo $gasCar['name']; ?></th>
+                            </tr>
+                        <thead>
+                        <tbody>
+                            <tr>
+                                <th>Prix d'acquisition (avant taxes et déductions)</th>
+                                <td><?php echo $evCar['base_price'] . ' $'; ?></td>
+                                <td><?php echo $gasCar['price'] . ' $'; ?></td>
+                            </tr>
+                            <tr>
+                                <th>Autonomie</th>
+                                <td><?php echo $evCar['planned_autonomy'] . ' km'; ?></td>
+                                <td><?php echo $gasCar['planned_autonomy'] . ' km'; ?></td>
+                            </tr>
+                            <tr>
+                                <th>Consommation par 100km</th>
+                                <td><?php echo $evCar['avg_consumption_rate'] . ' kWh'; ?></td>
+                                <td><?php echo $gasCar['avg_consumption_rate'] . ' L'; ?></td>
+                            </tr>
+                            <tr>
+                                <th>Coût d'une recharge complète</th>
+                                <td><?php echo $evCar['fill_cost'] . ' $ (à domicile)'; ?></td>
+                                <td><?php echo $gasCar['fill_cost'] . ' $ (essence ordinaire)'; ?></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </p>
             </div>
 

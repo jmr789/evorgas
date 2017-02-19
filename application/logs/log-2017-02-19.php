@@ -530,3 +530,415 @@ DEBUG - 2017-02-19 13:06:07 --> UTF-8 Support Enabled
 DEBUG - 2017-02-19 13:06:07 --> No URI present. Default controller set.
 DEBUG - 2017-02-19 13:06:07 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2017-02-19 13:06:07 --> Total execution time: 0.0342
+DEBUG - 2017-02-19 13:50:18 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 13:50:18 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 13:50:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 13:50:18 --> Total execution time: 0.0334
+DEBUG - 2017-02-19 13:56:53 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 13:56:53 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 13:56:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 13:56:53 --> Total execution time: 0.0504
+DEBUG - 2017-02-19 13:57:24 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 13:57:24 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 13:57:24 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 13:57:24 --> Severity: Compile Error --> Cannot redeclare class Main C:\electricvsgas\application\models\Main_model.php 20
+DEBUG - 2017-02-19 13:57:39 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 13:57:39 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 13:57:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 13:57:39 --> Total execution time: 0.0398
+DEBUG - 2017-02-19 14:19:07 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:19:07 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:19:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:19:07 --> Total execution time: 0.0523
+DEBUG - 2017-02-19 14:20:10 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:20:10 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:20:10 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:20:10 --> Severity: Notice --> Undefined property: Main::$db C:\electricvsgas\system\core\Model.php 77
+ERROR - 2017-02-19 14:20:10 --> Severity: Error --> Call to a member function select() on null C:\electricvsgas\application\models\Main_model.php 13
+DEBUG - 2017-02-19 14:20:42 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:20:42 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:20:42 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:20:42 --> Severity: Notice --> Undefined property: Main::$db C:\electricvsgas\system\core\Model.php 77
+ERROR - 2017-02-19 14:20:42 --> Severity: Error --> Call to a member function select() on null C:\electricvsgas\application\models\Main_model.php 13
+DEBUG - 2017-02-19 14:21:53 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:21:53 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:21:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:21:53 --> Severity: Notice --> Undefined property: Main::$db C:\electricvsgas\system\core\Model.php 77
+ERROR - 2017-02-19 14:21:53 --> Severity: Error --> Call to a member function select() on null C:\electricvsgas\application\models\Main_model.php 13
+DEBUG - 2017-02-19 14:22:14 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:22:14 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:22:14 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:22:14 --> Severity: Notice --> Undefined property: Main::$db C:\electricvsgas\system\core\Model.php 77
+ERROR - 2017-02-19 14:22:14 --> Severity: Error --> Call to a member function select() on null C:\electricvsgas\application\models\Main_model.php 13
+DEBUG - 2017-02-19 14:22:15 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:22:15 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:22:15 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:22:15 --> Severity: Notice --> Undefined property: Main::$db C:\electricvsgas\system\core\Model.php 77
+ERROR - 2017-02-19 14:22:15 --> Severity: Error --> Call to a member function select() on null C:\electricvsgas\application\models\Main_model.php 13
+DEBUG - 2017-02-19 14:22:16 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:22:16 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:22:16 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:22:16 --> Severity: Notice --> Undefined property: Main::$db C:\electricvsgas\system\core\Model.php 77
+ERROR - 2017-02-19 14:22:16 --> Severity: Error --> Call to a member function select() on null C:\electricvsgas\application\models\Main_model.php 13
+DEBUG - 2017-02-19 14:22:16 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:22:16 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:22:16 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:22:16 --> Severity: Notice --> Undefined property: Main::$db C:\electricvsgas\system\core\Model.php 77
+ERROR - 2017-02-19 14:22:16 --> Severity: Error --> Call to a member function select() on null C:\electricvsgas\application\models\Main_model.php 13
+DEBUG - 2017-02-19 14:22:17 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:22:17 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:22:17 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:22:17 --> Severity: Notice --> Undefined property: Main::$db C:\electricvsgas\system\core\Model.php 77
+ERROR - 2017-02-19 14:22:17 --> Severity: Error --> Call to a member function select() on null C:\electricvsgas\application\models\Main_model.php 13
+DEBUG - 2017-02-19 14:22:53 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:22:53 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:22:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:22:53 --> Severity: Notice --> Undefined property: Main::$db C:\electricvsgas\system\core\Model.php 77
+ERROR - 2017-02-19 14:22:53 --> Severity: Error --> Call to a member function select() on null C:\electricvsgas\application\models\Cars_model.php 13
+DEBUG - 2017-02-19 14:22:54 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:22:54 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:22:54 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:22:54 --> Severity: Notice --> Undefined property: Main::$db C:\electricvsgas\system\core\Model.php 77
+ERROR - 2017-02-19 14:22:54 --> Severity: Error --> Call to a member function select() on null C:\electricvsgas\application\models\Cars_model.php 13
+DEBUG - 2017-02-19 14:22:54 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:22:54 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:22:54 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:22:54 --> Severity: Notice --> Undefined property: Main::$db C:\electricvsgas\system\core\Model.php 77
+ERROR - 2017-02-19 14:22:54 --> Severity: Error --> Call to a member function select() on null C:\electricvsgas\application\models\Cars_model.php 13
+DEBUG - 2017-02-19 14:22:55 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:22:55 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:22:55 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:22:55 --> Severity: Notice --> Undefined property: Main::$db C:\electricvsgas\system\core\Model.php 77
+ERROR - 2017-02-19 14:22:55 --> Severity: Error --> Call to a member function select() on null C:\electricvsgas\application\models\Cars_model.php 13
+DEBUG - 2017-02-19 14:27:55 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:27:55 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:27:55 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:27:55 --> Severity: Notice --> Undefined property: Main::$db C:\electricvsgas\system\core\Model.php 77
+ERROR - 2017-02-19 14:27:55 --> Severity: Error --> Call to a member function get() on null C:\electricvsgas\application\models\Cars_model.php 13
+DEBUG - 2017-02-19 14:27:56 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:27:56 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:27:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:27:56 --> Severity: Notice --> Undefined property: Main::$db C:\electricvsgas\system\core\Model.php 77
+ERROR - 2017-02-19 14:27:56 --> Severity: Error --> Call to a member function get() on null C:\electricvsgas\application\models\Cars_model.php 13
+DEBUG - 2017-02-19 14:27:57 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:27:57 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:27:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:27:57 --> Severity: Notice --> Undefined property: Main::$db C:\electricvsgas\system\core\Model.php 77
+ERROR - 2017-02-19 14:27:57 --> Severity: Error --> Call to a member function get() on null C:\electricvsgas\application\models\Cars_model.php 13
+DEBUG - 2017-02-19 14:28:08 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:28:08 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:28:08 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:28:08 --> Severity: Notice --> Undefined property: Main::$db C:\electricvsgas\system\core\Model.php 77
+ERROR - 2017-02-19 14:28:08 --> Severity: Error --> Call to a member function select() on null C:\electricvsgas\application\models\Cars_model.php 13
+DEBUG - 2017-02-19 14:28:41 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:28:41 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:28:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:28:41 --> Total execution time: 0.0919
+DEBUG - 2017-02-19 14:28:49 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:28:49 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:28:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:28:49 --> Total execution time: 0.0687
+DEBUG - 2017-02-19 14:30:18 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:30:18 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:30:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:30:18 --> Total execution time: 0.0645
+DEBUG - 2017-02-19 14:30:33 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:30:33 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:30:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:30:33 --> Total execution time: 0.0575
+DEBUG - 2017-02-19 14:30:52 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:30:52 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:30:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:30:52 --> Total execution time: 0.0589
+DEBUG - 2017-02-19 14:31:24 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:31:24 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:31:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:31:24 --> Total execution time: 0.0550
+DEBUG - 2017-02-19 14:31:33 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:31:33 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:31:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:31:33 --> Total execution time: 0.0585
+DEBUG - 2017-02-19 14:31:34 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:31:34 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:31:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:31:34 --> Total execution time: 0.0535
+DEBUG - 2017-02-19 14:31:35 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:31:35 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:31:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:31:35 --> Total execution time: 0.0543
+DEBUG - 2017-02-19 14:31:38 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:31:38 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:31:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:31:38 --> Total execution time: 0.0527
+DEBUG - 2017-02-19 14:31:40 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:31:40 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:31:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:31:40 --> Total execution time: 0.0551
+DEBUG - 2017-02-19 14:31:48 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:31:48 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:31:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:31:48 --> Total execution time: 0.0587
+DEBUG - 2017-02-19 14:31:57 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:31:57 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:31:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:31:57 --> Total execution time: 0.0581
+DEBUG - 2017-02-19 14:32:12 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:32:12 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:32:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:32:12 --> Total execution time: 0.0609
+DEBUG - 2017-02-19 14:32:39 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:32:39 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:32:39 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:32:39 --> Severity: Notice --> Undefined variable: gas C:\electricvsgas\application\views\landing.php 84
+DEBUG - 2017-02-19 14:32:39 --> Total execution time: 0.0652
+DEBUG - 2017-02-19 14:32:49 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:32:49 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:32:49 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:32:49 --> Severity: Notice --> Undefined index: name C:\electricvsgas\application\views\landing.php 84
+DEBUG - 2017-02-19 14:32:49 --> Total execution time: 0.0642
+DEBUG - 2017-02-19 14:33:02 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:33:02 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:33:02 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:33:02 --> Severity: Notice --> Undefined index: name C:\electricvsgas\application\views\landing.php 84
+DEBUG - 2017-02-19 14:33:02 --> Total execution time: 0.0566
+DEBUG - 2017-02-19 14:33:20 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:33:20 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:33:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:33:20 --> Total execution time: 0.0512
+DEBUG - 2017-02-19 14:33:29 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:33:29 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:33:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:33:29 --> Total execution time: 0.0569
+DEBUG - 2017-02-19 14:33:29 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:33:29 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:33:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:33:30 --> Total execution time: 0.0555
+DEBUG - 2017-02-19 14:34:45 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:34:45 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:34:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:34:45 --> Total execution time: 0.0693
+DEBUG - 2017-02-19 14:35:43 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:35:43 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:35:43 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:35:43 --> Severity: Notice --> Undefined index: base_price C:\electricvsgas\application\views\landing.php 92
+ERROR - 2017-02-19 14:35:43 --> Severity: Notice --> Undefined index: real_autonomy C:\electricvsgas\application\views\landing.php 97
+DEBUG - 2017-02-19 14:35:43 --> Total execution time: 0.1003
+DEBUG - 2017-02-19 14:35:59 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:35:59 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:35:59 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:35:59 --> Severity: Notice --> Undefined index: base_price C:\electricvsgas\application\views\landing.php 92
+ERROR - 2017-02-19 14:35:59 --> Severity: Notice --> Undefined index: real_autonomy C:\electricvsgas\application\views\landing.php 97
+DEBUG - 2017-02-19 14:35:59 --> Total execution time: 0.0849
+DEBUG - 2017-02-19 14:36:07 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:36:07 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:36:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:36:07 --> Total execution time: 0.0753
+DEBUG - 2017-02-19 14:36:29 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:36:29 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:36:29 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 14:36:29 --> Severity: Parsing Error --> syntax error, unexpected '' km'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' C:\electricvsgas\application\views\landing.php 97
+DEBUG - 2017-02-19 14:36:37 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:36:37 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:36:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:36:38 --> Total execution time: 0.0527
+DEBUG - 2017-02-19 14:36:48 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:36:48 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:36:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:36:48 --> Total execution time: 0.0601
+DEBUG - 2017-02-19 14:36:53 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:36:53 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:36:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:36:53 --> Total execution time: 0.0611
+DEBUG - 2017-02-19 14:38:21 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:38:21 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:38:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:38:21 --> Total execution time: 0.1713
+DEBUG - 2017-02-19 14:38:23 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:38:23 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:38:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:38:23 --> Total execution time: 0.1889
+DEBUG - 2017-02-19 14:38:48 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:38:48 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:38:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:38:48 --> Total execution time: 0.0818
+DEBUG - 2017-02-19 14:39:12 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 14:39:12 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 14:39:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 14:39:12 --> Total execution time: 0.0652
+DEBUG - 2017-02-19 16:28:19 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:28:19 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:28:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 16:28:19 --> Total execution time: 0.0675
+DEBUG - 2017-02-19 16:28:51 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:28:51 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:28:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 16:28:51 --> Total execution time: 0.1214
+DEBUG - 2017-02-19 16:29:19 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:29:19 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:29:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 16:29:19 --> Total execution time: 0.0819
+DEBUG - 2017-02-19 16:29:20 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:29:20 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:29:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 16:29:20 --> Total execution time: 0.0746
+DEBUG - 2017-02-19 16:49:14 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:49:14 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:49:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 16:49:14 --> Total execution time: 0.0842
+DEBUG - 2017-02-19 16:50:07 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:50:07 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:50:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 16:50:07 --> Severity: Notice --> Undefined variable: evCar C:\electricvsgas\application\views\landing.php 85
+ERROR - 2017-02-19 16:50:07 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 86
+ERROR - 2017-02-19 16:50:07 --> Severity: Notice --> Undefined variable: evCar C:\electricvsgas\application\views\landing.php 92
+ERROR - 2017-02-19 16:50:07 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 93
+ERROR - 2017-02-19 16:50:07 --> Severity: Notice --> Undefined variable: evCar C:\electricvsgas\application\views\landing.php 97
+ERROR - 2017-02-19 16:50:07 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 98
+ERROR - 2017-02-19 16:50:07 --> Severity: Notice --> Undefined variable: evCar C:\electricvsgas\application\views\landing.php 102
+ERROR - 2017-02-19 16:50:07 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 103
+DEBUG - 2017-02-19 16:50:07 --> Total execution time: 0.0994
+DEBUG - 2017-02-19 16:51:34 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:51:34 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:51:34 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 16:51:34 --> Severity: Error --> Unsupported operand types C:\electricvsgas\application\controllers\Main.php 16
+DEBUG - 2017-02-19 16:51:59 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:51:59 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:51:59 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 16:51:59 --> Severity: Error --> Unsupported operand types C:\electricvsgas\application\controllers\Main.php 16
+DEBUG - 2017-02-19 16:52:00 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:52:00 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:52:00 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 16:52:00 --> Severity: Error --> Unsupported operand types C:\electricvsgas\application\controllers\Main.php 16
+DEBUG - 2017-02-19 16:52:18 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:52:18 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:52:18 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 16:52:18 --> Severity: Notice --> Array to string conversion C:\electricvsgas\application\controllers\Main.php 16
+ERROR - 2017-02-19 16:52:18 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 86
+ERROR - 2017-02-19 16:52:18 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 93
+ERROR - 2017-02-19 16:52:18 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 98
+ERROR - 2017-02-19 16:52:18 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 103
+DEBUG - 2017-02-19 16:52:18 --> Total execution time: 0.1986
+DEBUG - 2017-02-19 16:52:45 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:52:45 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:52:45 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 16:52:45 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 86
+ERROR - 2017-02-19 16:52:45 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 93
+ERROR - 2017-02-19 16:52:45 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 98
+ERROR - 2017-02-19 16:52:45 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 103
+DEBUG - 2017-02-19 16:52:45 --> Total execution time: 0.0781
+DEBUG - 2017-02-19 16:52:51 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:52:51 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:52:51 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 16:52:51 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 86
+ERROR - 2017-02-19 16:52:51 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 93
+ERROR - 2017-02-19 16:52:51 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 98
+ERROR - 2017-02-19 16:52:51 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 103
+DEBUG - 2017-02-19 16:52:51 --> Total execution time: 0.0774
+DEBUG - 2017-02-19 16:53:09 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:53:09 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:53:09 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 16:53:09 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 86
+ERROR - 2017-02-19 16:53:09 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 93
+ERROR - 2017-02-19 16:53:09 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 98
+ERROR - 2017-02-19 16:53:09 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 103
+ERROR - 2017-02-19 16:53:09 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 107
+DEBUG - 2017-02-19 16:53:09 --> Total execution time: 0.0815
+DEBUG - 2017-02-19 16:53:15 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:53:15 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:53:15 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 16:53:15 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 86
+ERROR - 2017-02-19 16:53:15 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 93
+ERROR - 2017-02-19 16:53:15 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 98
+ERROR - 2017-02-19 16:53:15 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 103
+DEBUG - 2017-02-19 16:53:15 --> Total execution time: 0.0781
+DEBUG - 2017-02-19 16:53:29 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:53:29 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:53:29 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 16:53:29 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 86
+ERROR - 2017-02-19 16:53:29 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 93
+ERROR - 2017-02-19 16:53:29 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 98
+ERROR - 2017-02-19 16:53:29 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 103
+DEBUG - 2017-02-19 16:53:29 --> Total execution time: 0.0798
+DEBUG - 2017-02-19 16:53:34 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:53:34 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:53:34 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 16:53:34 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 86
+ERROR - 2017-02-19 16:53:34 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 93
+ERROR - 2017-02-19 16:53:34 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 98
+ERROR - 2017-02-19 16:53:34 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 103
+DEBUG - 2017-02-19 16:53:34 --> Total execution time: 0.0796
+DEBUG - 2017-02-19 16:53:51 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:53:51 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:53:51 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 16:53:51 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 86
+ERROR - 2017-02-19 16:53:51 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 93
+ERROR - 2017-02-19 16:53:51 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 98
+ERROR - 2017-02-19 16:53:51 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 103
+ERROR - 2017-02-19 16:53:51 --> Severity: Notice --> Undefined variable: gasCar C:\electricvsgas\application\views\landing.php 108
+DEBUG - 2017-02-19 16:53:51 --> Total execution time: 0.1233
+DEBUG - 2017-02-19 16:54:52 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:54:52 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:54:52 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 16:54:52 --> Severity: Notice --> Undefined index: price C:\electricvsgas\application\controllers\Main.php 13
+DEBUG - 2017-02-19 16:54:52 --> Total execution time: 0.0753
+DEBUG - 2017-02-19 16:55:10 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:55:10 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:55:10 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 16:55:10 --> Severity: Notice --> Undefined index: price C:\electricvsgas\application\controllers\Main.php 13
+DEBUG - 2017-02-19 16:55:10 --> Total execution time: 0.0619
+DEBUG - 2017-02-19 16:55:33 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:55:33 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:55:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 16:55:33 --> Total execution time: 0.0562
+DEBUG - 2017-02-19 16:56:19 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:56:19 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:56:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 16:56:20 --> Total execution time: 0.0621
+DEBUG - 2017-02-19 16:56:40 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:56:40 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:56:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 16:56:40 --> Total execution time: 0.0510
+DEBUG - 2017-02-19 16:56:54 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:56:54 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:56:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 16:56:54 --> Total execution time: 0.0719
+DEBUG - 2017-02-19 16:57:46 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:57:46 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:57:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 16:57:46 --> Total execution time: 0.0807
+DEBUG - 2017-02-19 16:58:09 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:58:09 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:58:09 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 16:58:09 --> Severity: Error --> Call to undefined function money_format() C:\electricvsgas\application\views\landing.php 92
+DEBUG - 2017-02-19 16:58:19 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:58:19 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:58:19 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 16:58:19 --> Severity: Error --> Call to undefined function money_format() C:\electricvsgas\application\views\landing.php 92
+DEBUG - 2017-02-19 16:58:20 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:58:20 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:58:20 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 16:58:20 --> Severity: Error --> Call to undefined function money_format() C:\electricvsgas\application\views\landing.php 92
+DEBUG - 2017-02-19 16:59:10 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:59:10 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:59:10 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 16:59:10 --> Severity: Error --> Call to undefined function money_format() C:\electricvsgas\application\views\landing.php 92
+DEBUG - 2017-02-19 16:59:11 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:59:11 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:59:11 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-02-19 16:59:11 --> Severity: Error --> Call to undefined function money_format() C:\electricvsgas\application\views\landing.php 92
+DEBUG - 2017-02-19 16:59:19 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:59:19 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:59:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 16:59:20 --> Total execution time: 0.0545
+DEBUG - 2017-02-19 16:59:48 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:59:48 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:59:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 16:59:48 --> Total execution time: 0.0538
+DEBUG - 2017-02-19 16:59:54 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 16:59:55 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 16:59:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 16:59:55 --> Total execution time: 0.0694
+DEBUG - 2017-02-19 17:00:40 --> UTF-8 Support Enabled
+DEBUG - 2017-02-19 17:00:40 --> No URI present. Default controller set.
+DEBUG - 2017-02-19 17:00:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-19 17:00:40 --> Total execution time: 0.0693

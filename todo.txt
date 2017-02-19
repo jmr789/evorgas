@@ -3,12 +3,9 @@
 
 -Obtenir les moyens moyens annuels de l'essence (ordinaire, super, etc.)
 -Obtenir coûts électricité QC
-    http://www.hydroquebec.com/residentiel/espace-clients/compte-et-facture/comprendre-facture/tarifs-residentiels-electricite/tarif-d.html
-    0,0571$ pour les 30 premiers kWh
-    0,0868$ pour les suivants
 -Consommation d'électricité par kilomètre par VE
     kWh/100km
 -Consommation d'essence par kilomètre par véhicule à essence
-    
+
 -Coût d'entretient estimé pour les différents véhicules (par année)
 -Dépreciation des VE
