@@ -1,7 +1,5 @@
-<footer>
-    <div class="row">
-        <div class="col-lg-12">
-            <p>&copy; Tous droits réservés 2017</p>
-        </div>
+<footer class="footer">
+    <div class="container">
+        <p>electriquevsessence.quebec &copy; Tous droits réservés 2017</p>
     </div>
 </footer>

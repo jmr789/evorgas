@@ -7,31 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <body>
 
-        <!-- Navigation -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Électrique vs Essence</a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a href="#calculateur">Calculateur</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container -->
-        </nav>
+        <?php include 'menu.php'; ?>
 
         <!-- Full Width Image Header -->
         <header class="header-image">
@@ -50,7 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <!-- First Featurette -->
             <div class="featurette" id="about">
-                <img class="featurette-image img-circle img-responsive pull-right" src="assets/images/logoVE_resized.jpg">
+                <img class="featurette-image img-circle img-responsive pull-right" src="<?php echo base_url(); ?>../assets/images/logoVE_resized.jpg">
                 <h2 class="featurette-heading">Combien coûte un véhicule électrique
                     <span class="text-muted">Est-ce avantageux ?</span>
                 </h2>
@@ -60,12 +36,47 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <hr class="featurette-divider">
 
             <!-- Calculateur -->
-            <div class="featurette" id="services">
-                <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-                <h2 class="featurette-heading">The Second Heading
-                    <span class="text-muted">Is Pretty Cool Too.</span>
+            <div class="featurette" id="calculateur">
+                <h2 class="featurette-heading">Calculateur
+                    <span class="text-muted"></span>
                 </h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <p class="lead">
+                    Notre calculateur automatique vous permet de comparer les coûts d'acquisition et d'utilisateur entre un véhicule à essence et un véhicule électrique de votre choix. Les prix affichés et utilisés sont ceux applicables au Québec seulement.
+                </p>
+                <p class="lead">Voici un exemple. Pour faire un autre calcul, <a href="<?php echo base_url(); ?>calculateur">Cliquez ici !</a></p>
+                <p id="calcul_response">
+                    <table class="table table-responsive table-bordered">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th><?php echo $evCar['name']; ?></th>
+                                <th><?php echo $gasCar['name']; ?></th>
+                            </tr>
+                        <thead>
+                        <tbody>
+                            <tr>
+                                <th>Prix d'acquisition (avant taxes et déductions)</th>
+                                <td><?php echo $evCar['base_price'] . ' $'; ?></td>
+                                <td><?php echo $gasCar['price'] . ' $'; ?></td>
+                            </tr>
+                            <tr>
+                                <th>Autonomie</th>
+                                <td><?php echo $evCar['planned_autonomy'] . ' km'; ?></td>
+                                <td><?php echo $gasCar['planned_autonomy'] . ' km'; ?></td>
+                            </tr>
+                            <tr>
+                                <th>Consommation par 100km</th>
+                                <td><?php echo $evCar['avg_consumption_rate'] . ' kWh'; ?></td>
+                                <td><?php echo $gasCar['avg_consumption_rate'] . ' L'; ?></td>
+                            </tr>
+                            <tr>
+                                <th>Coût d'une recharge complète</th>
+                                <td><?php echo $evCar['fill_cost'] . ' $ (à domicile)'; ?></td>
+                                <td><?php echo $gasCar['fill_cost'] . ' $ (essence ordinaire)'; ?></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </p>
             </div>
 
             <hr class="featurette-divider">
