@@ -1,2 +1,14 @@
 -Coût d'entretient estimé pour les différents véhicules (par année)
+    400 par année ..
+    40-50$ huile
 -Dépreciation des VE (valeur de revente)
+
+
+EV advantages
+    No oil changes
+    No exhaust repairs
+    Tax credits
+    Less brake maintenance
+
+add gas type to gas_cars to select correct price in calculations
+add prices for bornes de recharge publiques et/ou autres ... voir aussi pour les superchargers si possible
