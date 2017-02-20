@@ -3,7 +3,6 @@
     40-50$ huile
 -Dépreciation des VE (valeur de revente)
 
-
 EV advantages
     No oil changes
     No exhaust repairs
@@ -12,3 +11,20 @@ EV advantages
 
 add gas type to gas_cars to select correct price in calculations
 add prices for bornes de recharge publiques et/ou autres ... voir aussi pour les superchargers si possible
+
+Changement de pile à prévoir
+Changement des freins
+Coûts de réparations électrique vs essence (plus cher, car peu d'endroits où aller)
+Garanties sur les différents VE (faire ajouter les infos au landing page ou autre..)
+
+....les autres raisons pour lesquelles acheter un VE
+
+....les véhicules à venir
+
+Qu'arrivera-t-il si le prix de l'essence double??
+
+Meilleurs achats
+    citadin
+    banlieusard
+    campagnard (pas trop recommandé, sauf si bcp de $$$$$)
+    amateur de roadtrips
