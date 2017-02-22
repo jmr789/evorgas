@@ -14,7 +14,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="headline">
                 <div class="container">
                     <h1>Acheter électrique</h1>
-                    <h2>Est-ce vraiment avantageux ?</h2>
+                    <h2>Est-ce avantageux ?</h2>
                 </div>
             </div>
         </header>
@@ -28,17 +28,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="featurette" id="about">
                 <img class="featurette-image img-circle img-responsive pull-right" src="<?php echo base_url(); ?>../assets/images/logoVE_resized.jpg">
                 <h2 class="featurette-heading">Combien coûte un véhicule électrique
-                    <span class="text-muted">Est-ce avantageux ?</span>
+                    <!--<span class="text-muted">Est-ce avantageux ?</span>-->
                 </h2>
-                <p class="lead">L'offre de véhicules électrique s'améliore à chaque année. Toutefois, le coût d'acquisition d'un tel véhicule nous apparaît souvent plus élevé que celui d'un véhicule à essence avec des dimensions semblables. Au Québec, le coût de l'électricité est bas et celui de l'essence est particulièrement élevé. Est-ce vraiment plus cher? Si oui, à quel point et qu'en est-il après 3, 5, 8 ans d'utilisation?</p>
+                <p class="lead">L'offre de véhicules électrique s'améliore à chaque année. Toutefois, le coût d'acquisition d'un tel véhicule nous apparaît souvent plus élevé que celui d'un véhicule à essence avec des dimensions semblables. Au Québec, le coût de l'électricité est bas et celui de l'essence est particulièrement élevé. Est-ce vraiment plus cher? Si oui, à quel point et qu'en est-il après 1, 3, 5 ans d'utilisation?</p>
             </div>
 
             <hr class="featurette-divider">
 
-            <!-- Calculateur -->
+            <!-- Second Featurette - Calculateur -->
             <div class="featurette" id="calculateur">
                 <h2 class="featurette-heading">Calculateur
-                    <span class="text-muted"></span>
+                    <!--<span class="text-muted"></span>-->
                 </h2>
                 <p class="lead">
                     Notre calculateur automatique vous permet de comparer les coûts d'acquisition et d'utilisateur entre un véhicule à essence et un véhicule électrique de votre choix. Les prix affichés et utilisés sont ceux applicables au Québec seulement.

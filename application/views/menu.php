@@ -18,6 +18,9 @@
                     <a href="<?php echo base_url(); ?>calculateur">Calculateur</a>
                 </li>
                 <li>
+                    <a href="<?php echo base_url(); ?>vehicules">Offre de véhicules électriques</a>
+                </li>
+                <li>
                     <a href="<?php echo base_url(); ?>contact">Contact</a>
                 </li>
             </ul>

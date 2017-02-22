@@ -1,5 +1,5 @@
 <footer class="footer">
     <div class="container">
-        <p>electriquevsessence.quebec &copy; Tous droits réservés 2017</p>
+        <p>&copy; electriquevsessence.quebec, 2017. Tous droits réservés</p>
     </div>
 </footer>
