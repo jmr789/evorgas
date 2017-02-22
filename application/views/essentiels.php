@@ -11,14 +11,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <!-- Page Content -->
         <div class="container">
-            <h1>Les essentiels</h1>
-            <h3>Éléments dont il faut tenir compte avant un achat de véhicule électrique</h3>
-            <hr class="featurette-divider">
+            <h1 class="page-header">Les essentiels<small> à savoir avant un achat</small></h1>
 
-            
-        
-
-            <hr class="featurette-divider">
+            <p>entretien (coûts, lieux, fréquence)...changement de batterie (quand, combien, où) ... les garanties ... les primes d'assurance .... les bornes de recharge ... la valeur de revente ...</p>
 
             <!-- Footer -->
             <?php include 'footer.php'; ?>

@@ -1,3 +1,9 @@
+
+...ajout images (lien) à la BD
+
+
+
+
 -Coût d'entretient estimé pour les différents véhicules (par année)
     400 par année ..
     40-50$ huile
@@ -39,3 +45,4 @@ Meilleurs achats
     FAIRE BOT QUI VA CHERCHER 1 FOIR PAR JOUR LE PRIX DE L'ÉLECTRICITÉ http://www.hydroquebec.com/residentiel/espace-clients/compte-et-facture/comprendre-facture/tarifs-residentiels-electricite/tarif-d.html
         ...IL VÉRIFIE ENSUITE S'IL Y A UNE DIFFÉRENCE ENTRE ÇA ET 
     
+

@@ -11,8 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <!-- Page Content -->
         <div class="container">
-            <h1>Calculateur de coûts (électrique vs essence)</h1>
-            <hr>
+            <h1 class="page-header">Calculateur de coûts (électrique vs essence)</h1>
 
             <form method="POST" action="<?php echo base_url(); ?>calculateur/afficherRésultat">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
