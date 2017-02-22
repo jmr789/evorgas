@@ -15,10 +15,13 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
+                    <a href="<?php echo base_url(); ?>vehicules">Véhicules électriques</a>
+                </li>
+                <li>
                     <a href="<?php echo base_url(); ?>calculateur">Calculateur</a>
                 </li>
                 <li>
-                    <a href="<?php echo base_url(); ?>vehicules">Offre de véhicules électriques</a>
+                    <a href="<?php echo base_url(); ?>essentiels">Les essentiels</a>
                 </li>
                 <li>
                     <a href="<?php echo base_url(); ?>contact">Contact</a>

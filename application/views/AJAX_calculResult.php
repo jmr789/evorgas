@@ -2,9 +2,9 @@
 <table class="table table-responsive table-bordered">
     <thead>
         <tr>
-            <th></th>
-            <th><?php echo $evCar['name']; ?></th>
-            <th><?php echo $gasCar['name']; ?></th>
+            <th class="col-lg-6 col-md-6 col-sm-6 col-xs-8"></th>
+            <th class="col-lg-3 col-md-3 col-sm-3 col-xs-2"><?php echo $evCar['name']; ?></th>
+            <th class="col-lg-3 col-md-3 col-sm-3 col-xs-2"><?php echo $gasCar['name']; ?></th>
         </tr>
     <thead>
     <tbody>

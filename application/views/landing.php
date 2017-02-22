@@ -26,19 +26,35 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <!-- First Featurette -->
             <div class="featurette" id="about">
-                <img class="featurette-image img-circle img-responsive pull-right" src="<?php echo base_url(); ?>../assets/images/logoVE_resized.jpg">
+                <figure class="pull-right">
+                    <img alt="http://www.vehiculeselectriques.gouv.qc.ca/" height="400" width="400" class="featurette-image img-circle img-responsive pull-right" src="<?php echo base_url(); ?>../assets/images/logoVE_resized.jpg">
+                </figure>
                 <h2 class="featurette-heading">Combien coûte un véhicule électrique
-                    <!--<span class="text-muted">Est-ce avantageux ?</span>-->
                 </h2>
                 <p class="lead">L'offre de véhicules électrique s'améliore à chaque année. Toutefois, le coût d'acquisition d'un tel véhicule nous apparaît souvent plus élevé que celui d'un véhicule à essence avec des dimensions semblables. Au Québec, le coût de l'électricité est bas et celui de l'essence est particulièrement élevé. Est-ce vraiment plus cher? Si oui, à quel point et qu'en est-il après 1, 3, 5 ans d'utilisation?</p>
             </div>
 
             <hr class="featurette-divider">
 
-            <!-- Second Featurette - Calculateur -->
+            <!-- Second Featurette - Véhicules -->
+            <div class="featurette" id="services">
+                <figure class="pull-left">
+                    <img alt="http://www.bmw.fr/fr/new-vehicles/bmw-i/i3/2016/apercu.html" height="500" width="500" class="featurette-image img-circle img-responsive pull-left" src="<?php echo base_url(); ?>../assets/images/i3.jpg">
+                    <figcaption>
+                        <span title="http://www.bmw.fr/fr/new-vehicles/bmw-i/i3/2016/apercu.html">BMW i3</span>
+                    </figcaption>
+                </figure>
+                <h2 class="featurette-heading">Véhicules Électriques
+                    <span class="text-muted">de moins en moins chers</span>
+                </h2>
+                <p class="lead">Au cours des dernières années, les seuls véhicules électriques abordables ne dépassaient guère les 100 kilomètres d'autonomie. Heureusement, en 2017 le tout devrait changer. L'arrivée de nouveaux modèles sous les 40 000 $ (après les incitatifs gouvernementaux) comportant des piles permettant plus de 250 kilomètres avec une charge change la donne. <br /><a href="<?php echo base_url(); ?>vehicules">Cliquez ici !</a> pour l'offre complète.</p>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- Third Featurette - Calculateur -->
             <div class="featurette" id="calculateur">
                 <h2 class="featurette-heading">Calculateur
-                    <!--<span class="text-muted"></span>-->
                 </h2>
                 <p class="lead">
                     Notre calculateur automatique vous permet de comparer les coûts d'acquisition et d'utilisateur entre un véhicule à essence et un véhicule électrique de votre choix. Les prix affichés et utilisés sont ceux applicables au Québec seulement.
