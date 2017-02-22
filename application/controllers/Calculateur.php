@@ -52,6 +52,8 @@ class Calculateur extends CI_Controller {
 
 		$data['evCar'] = $evCar;
 		$data['gasCar'] = $gasCar;
+		$data['electricity_cost'] = $electricityPrice;
+		$data['gas_cost'] = $gasPrice;
 
 		$this->load->view('AJAX_calculResult', $data);
 	}

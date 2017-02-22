@@ -2,6 +2,7 @@
     400 par année ..
     40-50$ huile
 -Dépreciation des VE (valeur de revente)
+-ajouter prix si le véhicule est rechargé avec une borne de recharge publique ..2,50$ par recharge (https://lecircuitelectrique.com/bornes-et-tarifs)
 
 EV advantages
     No oil changes
@@ -28,3 +29,12 @@ Meilleurs achats
     banlieusard
     campagnard (pas trop recommandé, sauf si bcp de $$$$$)
     amateur de roadtrips
+
+
+
+
+    FAIRE BOT QUI VA CHERCHER LE PRIX DE L'ESSENCE 1 FOIS PAR JOUR SUR GASBUDDY http://www.montrealgasprices.com ET QUI UPDATE LA BD AVEC
+    FAIRE BOT QUI VA CHERCHER 1 FOIR PAR JOUR LE PRIX DE L'ÉLECTRICITÉ http://www.hydroquebec.com/residentiel/espace-clients/compte-et-facture/comprendre-facture/tarifs-residentiels-electricite/tarif-d.html
+        ...IL VÉRIFIE ENSUITE S'IL Y A UNE DIFFÉRENCE ENTRE ÇA ET 
+    
+    

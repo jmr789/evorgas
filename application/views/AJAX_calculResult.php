@@ -28,25 +28,25 @@
             <td><?php echo $evCar['planned_autonomy'] . ' km'; ?></td>
             <td><?php echo $gasCar['planned_autonomy'] . ' km'; ?></td>
         </tr>
-        <tr>
+        <!--<tr>
             <th>Consommation par 100 km</th>
             <td><?php echo $evCar['avg_consumption_rate'] . ' kWh'; ?></td>
             <td><?php echo $gasCar['avg_consumption_rate'] . ' L'; ?></td>
-        </tr>
+        </tr>-->
         <tr>
             <th>Coût pour parcourir 100 km</th>
-            <td><?php echo number_format($evCar['onehundredkmcost'], 2) . ' $'; ?></td>
-            <td><?php echo number_format($gasCar['onehundredkmcost'], 2) . ' $'; ?></td>
+            <td title="Basé sur un coût de <?php echo $electricity_cost;?> $ par kWh"><?php echo number_format($evCar['onehundredkmcost'], 2) . ' $'; ?></td>
+            <td title="Basé sur un coût de <?php echo $gas_cost;?> $ par litre d'essence ordinaire"><?php echo number_format($gasCar['onehundredkmcost'], 2) . ' $'; ?></td>
         </tr>
         <tr>
             <th>Coût d'une recharge complète</th>
-            <td><?php echo number_format($evCar['fill_cost'], 2) . ' $ (à domicile)'; ?></td>
-            <td><?php echo number_format($gasCar['fill_cost'], 2) . ' $ (essence ordinaire)'; ?></td>
+            <td title="Basé sur un coût de <?php echo $electricity_cost;?> $ par kWh"><?php echo number_format($evCar['fill_cost'], 2) . ' $ (à domicile)'; ?></td>
+            <td title="Basé sur un coût de <?php echo $gas_cost;?> $ par litre d'essence ordinaire"><?php echo number_format($gasCar['fill_cost'], 2) . ' $ (essence ordinaire)'; ?></td>
         </tr>
         <tr>
             <th>Coût pour parcourir 20 000 km</th>
-            <td><?php echo number_format($evCar['twentykkmcost'], 2) . ' $'; ?></td>
-            <td><?php echo number_format($gasCar['twentykkmcost'], 2) . ' $'; ?></td>
+            <td title="Basé sur un coût de <?php echo $electricity_cost;?> $ par kWh"><?php echo number_format($evCar['twentykkmcost'], 2) . ' $'; ?></td>
+            <td title="Basé sur un coût de <?php echo $gas_cost;?> $ par litre d'essence ordinaire"><?php echo number_format($gasCar['twentykkmcost'], 2) . ' $'; ?></td>
         </tr>
         <tr>
             <th>Économies annuelles dues au prix de l'énergie (20 000 km)</th>

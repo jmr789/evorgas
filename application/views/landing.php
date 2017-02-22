@@ -74,11 +74,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <td><?php echo $evCar['planned_autonomy'] . ' km'; ?></td>
                                 <td><?php echo $gasCar['planned_autonomy'] . ' km'; ?></td>
                             </tr>
-                            <tr>
+                            <!--<tr>
                                 <th>Consommation par 100 km</th>
                                 <td><?php echo $evCar['avg_consumption_rate'] . ' kWh'; ?></td>
                                 <td><?php echo $gasCar['avg_consumption_rate'] . ' L'; ?></td>
-                            </tr>
+                            </tr>-->
                             <tr>
                                 <th>Coût pour parcourir 100 km</th>
                                 <td><?php echo number_format($evCar['onehundredkmcost'], 2) . ' $'; ?></td>
