@@ -7,16 +7,6 @@ class Main extends CI_Controller {
 	{
 		$this->load->model('Cars_model');
 
-<<<<<<< HEAD
-		$evCar = $this->Cars_model->get_electric_cars_data()[1];
-		$gasCar = $this->Cars_model->get_gas_cars_data()[0];
-
-		$gasPrices = $this->Cars_model->get_gas_prices_by_type('regular')[0]['price'];
-		$electricityPrice = $this->Cars_model->get_electricity_prices()[0]['price'];
-
-		$evCar['fill_cost'] = $electricityPrice * $evCar['battery_size'];
-		$gasCar['fill_cost'] = $gasPrices * $gasCar['tank_size'];
-=======
 		$evCar = $this->Cars_model->get_electric_cars_data()[4];
 		$gasCar = $this->Cars_model->get_gas_cars_data()[4];
 
@@ -47,7 +37,6 @@ class Main extends CI_Controller {
 		$evCar['after1yearcost'] = $after1yeareconomy;
 		$evCar['after3yearscost'] = $after3yearseconomy;
 		$evCar['after5yearscost'] = $after5yearseconomy;
->>>>>>> dev
 
 		$data['evCar'] = $evCar;
 		$data['gasCar'] = $gasCar;

@@ -13,8 +13,6 @@ class Calculateur extends CI_Controller {
 		$data['gasCar'] = $this->Cars_model->get_gas_cars_data();
 
 		$this->load->view('calculateur', $data);
-<<<<<<< HEAD
-=======
 	}
 
 	public function loadAjaxResults() 
@@ -58,7 +56,6 @@ class Calculateur extends CI_Controller {
 		$data['gas_cost'] = $gasPrice;
 
 		$this->load->view('AJAX_calculResult', $data);
->>>>>>> dev
 	}
 
 }
