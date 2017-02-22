@@ -12,9 +12,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!-- Page Content -->
         <div class="container">
             <h1>Calculateur de coûts (électrique vs essence)</h1>
+<<<<<<< HEAD
             <hr class="featurette-divider">
 
             <form method="POST" action="<?php echo base_url(); ?>calculateur/afficherRésultat">
+=======
+
+            <form method="POST" id="calcul_form">
+>>>>>>> dev
                 <div class="form-group">
                     <label for='select_ev'>Choisir un véhicule électrique</label>
                     <select class="form-control" id='select_ev' name='ev'>
@@ -31,10 +36,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         } ?>
                     </select>
                 </div>
+<<<<<<< HEAD
                 <input class="btn btn-primary" type="submit" value="Afficher"
             </form>
 
            
+=======
+                <input id="form_submit" class="btn btn-primary" type="submit" value="Comparer" />
+            </form>
+            
+            <div id="ajax_container"></div>
+>>>>>>> dev
 
             <hr class="featurette-divider">
 
@@ -47,3 +59,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </body>
 
 </html>
+<script>
+    $(document).ready(function(){
+        $('#form_submit').click(function(e){
+            e.preventDefault();
+            $.ajax({
+                url: "calculateur/loadAjaxResults",
+                method: "POST",
+                data: $('#calcul_form').serialize(),
+                success: function(response){
+                    //setTimeout(function(){
+                    $("#ajax_container").html(response);
+                    //}, 500);
+                    }
+                });
+            });
+        })
+</script>

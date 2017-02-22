@@ -1,2 +1,44 @@
 -Coût d'entretient estimé pour les différents véhicules (par année)
+<<<<<<< HEAD
 -Dépreciation des VE (valeur de revente)
+=======
+    400 par année ..
+    40-50$ huile
+-Dépreciation des VE (valeur de revente)
+-ajouter prix si le véhicule est rechargé avec une borne de recharge publique ..2,50$ par recharge (https://lecircuitelectrique.com/bornes-et-tarifs)
+
+EV advantages
+    No oil changes
+    No exhaust repairs
+    Tax credits
+    Less brake maintenance
+
+add gas type to gas_cars to select correct price in calculations
+add prices for bornes de recharge publiques et/ou autres ... voir aussi pour les superchargers si possible
+
+Changement de pile à prévoir
+Changement des freins
+Coûts de réparations électrique vs essence (plus cher, car peu d'endroits où aller)
+Garanties sur les différents VE (faire ajouter les infos au landing page ou autre..)
+
+....les autres raisons pour lesquelles acheter un VE
+
+....les véhicules à venir
+
+Qu'arrivera-t-il si le prix de l'essence double??
+
+Meilleurs achats
+    citadin
+    banlieusard
+    campagnard (pas trop recommandé, sauf si bcp de $$$$$)
+    amateur de roadtrips
+
+
+
+
+    FAIRE BOT QUI VA CHERCHER LE PRIX DE L'ESSENCE 1 FOIS PAR JOUR SUR GASBUDDY http://www.montrealgasprices.com ET QUI UPDATE LA BD AVEC
+    FAIRE BOT QUI VA CHERCHER 1 FOIR PAR JOUR LE PRIX DE L'ÉLECTRICITÉ http://www.hydroquebec.com/residentiel/espace-clients/compte-et-facture/comprendre-facture/tarifs-residentiels-electricite/tarif-d.html
+        ...IL VÉRIFIE ENSUITE S'IL Y A UNE DIFFÉRENCE ENTRE ÇA ET 
+    
+    
+>>>>>>> dev

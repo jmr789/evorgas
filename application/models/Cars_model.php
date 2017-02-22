@@ -11,7 +11,12 @@ class Cars_model extends CI_Model
 	public function get_electric_cars_data()
 	{
 		$this->db->select('*');
+<<<<<<< HEAD
 		$this->db->from('vehicules_electriques ve');
+=======
+		$this->db->from('vehicules_electriques');
+		$this->db->order_by('after_tax_price','ASC');
+>>>>>>> dev
 		
 		$query = $this->db->get();
 
@@ -22,6 +27,10 @@ class Cars_model extends CI_Model
 	{
 		$this->db->select('*');
 		$this->db->from('vehicules_essence');
+<<<<<<< HEAD
+=======
+		$this->db->order_by('after_tax_price','ASC');
+>>>>>>> dev
 		
 		$query = $this->db->get();
 
@@ -48,4 +57,31 @@ class Cars_model extends CI_Model
 
 	    return $query->result_array();
 	}
+<<<<<<< HEAD
+=======
+
+	public function get_electric_cars_data_by_id($id) 
+	{
+		$this->db->select('*');
+		$this->db->from('vehicules_electriques');
+		$this->db->where('id', $id);
+		$this->db->limit(1);
+		
+		$query = $this->db->get();
+
+	    return $query->result_array()[0];
+	}
+
+	public function get_gas_cars_databy_id($id) 
+	{
+		$this->db->select('*');
+		$this->db->from('vehicules_essence');
+		$this->db->where('id', $id);
+		$this->db->limit(1);
+		
+		$query = $this->db->get();
+
+	    return $query->result_array()[0];
+	}
+>>>>>>> dev
 }
