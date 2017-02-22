@@ -50,17 +50,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script>
     $(document).ready(function(){
         $('#form_submit').click(function(e){
+            var ev = $('#select_ev').val()
+            var gas = $('#select_gas').val()
             e.preventDefault();
             $.ajax({
                 url: "calculateur/loadAjaxResults",
                 method: "POST",
-                data: $('#calcul_form').serialize(),
+                data: {ev: ev, gas: gas},
                 success: function(response){
-                    //setTimeout(function(){
                     $("#ajax_container").html(response);
-                    //}, 500);
                     }
                 });
             });
-        })
+        });
 </script>

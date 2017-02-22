@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-//$config['base_url'] = 'http://localhost/cars/index.php/';
-$config['base_url'] = 'http://electriquevsessence.quebec/index.php/';
+$config['base_url'] = 'http://localhost/cars/index.php/';
+//$config['base_url'] = 'http://electriquevsessence.quebec/index.php/';
 
 /*
 |--------------------------------------------------------------------------
