@@ -1,7 +1,10 @@
 
-...ajout images (lien) à la BD
+...ajout images (lien) à la BD ????
 
-
+pour downloader toutes les images d'un website ?
+    wget -r -A png,pdf http://www.website-name.com
+    tu le call sur la section où il y a tous les véhicules
+    après du trie selon la manière dont les photos sont nommées
 
 
 -Coût d'entretient estimé pour les différents véhicules (par année)
@@ -14,10 +17,23 @@ EV advantages
     No oil changes
     No exhaust repairs
     Tax credits
+        The government of Québec offers a rebate of up to $8,000 off the purchase of an electric car and 50% off the cost for buying and installing a charging station up to a maximum of $600.
     Less brake maintenance
+    https://plugndrive.ca/benefits-driving-electric
+    https://plugndrive.ca/electric-cars
 
 add gas type to gas_cars to select correct price in calculations
 add prices for bornes de recharge publiques et/ou autres ... voir aussi pour les superchargers si possible
+
+Canadian Electric Car Fast Facts
+    There are more than 28,000 electric cars on the road in Canada
+    Provincial incentives in British Columbia, Ontario and Québec can save you up to $14,000 off your vehicle purchase and $1,000 off your home charging station
+    Driving an electric car can save you between $1,500-$2,000 per year on fuel and maintenance
+    Canada's electricity is clean with the majority of our power coming from hydro and nuclear
+    Driving an electric car can reduce your vehicle's emissions by as much as 90%
+    Canada has more than 4,500 public charging stations, 150 of which are Level 3 fast chargers
+    There are 23 models available for sale in Canada with more on the way
+
 
 Changement de pile à prévoir
 Changement des freins

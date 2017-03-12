@@ -21,7 +21,7 @@
                     <a href="<?php echo base_url(); ?>calculateur">Calculateur</a>
                 </li>
                 <li>
-                    <a href="<?php echo base_url(); ?>essentiels">Les essentiels</a>
+                    <a href="<?php echo base_url(); ?>essentiels">En savoir plus</a>
                 </li>
                 <li>
                     <a href="<?php echo base_url(); ?>contact">Contact</a>

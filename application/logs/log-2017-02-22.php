@@ -1364,3 +1364,13 @@ DEBUG - 2017-02-22 14:56:28 --> Total execution time: 0.0397
 DEBUG - 2017-02-22 14:56:39 --> UTF-8 Support Enabled
 DEBUG - 2017-02-22 14:56:39 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2017-02-22 14:56:39 --> Total execution time: 0.0357
+DEBUG - 2017-02-22 15:50:08 --> UTF-8 Support Enabled
+DEBUG - 2017-02-22 15:50:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-22 15:50:08 --> Total execution time: 0.0587
+DEBUG - 2017-02-22 22:45:07 --> UTF-8 Support Enabled
+DEBUG - 2017-02-22 22:45:07 --> No URI present. Default controller set.
+DEBUG - 2017-02-22 22:45:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-22 22:45:07 --> Total execution time: 0.0784
+DEBUG - 2017-02-22 22:45:12 --> UTF-8 Support Enabled
+DEBUG - 2017-02-22 22:45:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-22 22:45:12 --> Total execution time: 0.0458
