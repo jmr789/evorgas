@@ -23,17 +23,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <!--<img class="img-responsive" src="http://placehold.it/700x400" alt="">-->
                         <img class="img-responsive" height="400" width="700" src="<?php echo base_url(); ?>../assets/images/vehicules/BOLT2017.jpg">
                     </a>
-                    <h3>
-                        <h2>Chevrolet Bolt</h2>
-                    </h3>
-                    <p>
-                        <ul>
-                            <li>42 895 $ (PDSF)</li>
-                            <li>383km d'autonomie</li>
-                            <li>Pleine charge en 9.5 heures (240V)</li>
-                            <li>0-100 km/h en 7.0s</li>
-                        </ul>
-                    </p>
+                    <div class="car_info">
+                        <h3>
+                            <p>Chevrolet Bolt</p>
+                        </h3>
+                        <div class="car_som">
+                            <ul>
+                                <li>42 895 $ (PDSF)</li>
+                                <li>383km d'autonomie</li>
+                                <li>Pleine charge en 9.5 heures (240V)</li>
+                                <li>0-100 km/h en 7.0s</li>
+                            </ul>
+                        </div>
+                        <div class="car_text">
+                            <p>
+                                La Chevrolet Bolt est le premier véhicule électrique abordable avec une autonomie aussi élevée à être disponible sur le marché. Avec une pile Lithium-ion de 60 kWh
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-md-4 portfolio-item">
@@ -149,6 +156,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <li>Mercedes-Benz EQ</li>
                         <li>Tesla Model Y</li>
                         <li>Aston Martin RapidE</li>
+                        <li>Lucid Air</li>
                     </ul>
                 </div>
             </div>

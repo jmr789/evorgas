@@ -9,11 +9,41 @@
     <thead>
     <tbody>
         <tr>
-            <th>Prix d'acquisition (taxes incluses)</th>
-            <td><?php echo number_format($evCar['after_tax_price'], 2) . ' $'; ?></td>
+            <th>Coût d'acquisition (taxes et rabais gouvernementaux inclus)</th>
+            <td><?php echo number_format($evCar['after_rebate_price'], 2) . ' $'; ?></td>
             <td><?php echo number_format($gasCar['after_tax_price'], 2) . ' $'; ?></td>
         </tr>
         <tr>
+            <th>Dépenses annuelles</th>
+            <td><?php echo number_format($evCar['totalYearExpenses'], 2) . ' $'; ?></td>
+            <td><?php echo number_format($gasCar['totalYearExpenses'], 2) . ' $'; ?></td>
+        </tr>
+        <tr>
+            <th>Coût 1 an (20,000km)</th>
+            <td><?php echo number_format($evCar['firstYearCosts'], 2) . ' $'; ?></td>
+            <td><?php echo number_format($gasCar['firstYearCosts'], 2) . ' $'; ?></td>
+        </tr>
+        <tr>
+            <th>Coût 2 ans (40,000km)</th>
+            <td><?php echo number_format($evCar['secondYearCosts'], 2) . ' $'; ?></td>
+            <td><?php echo number_format($gasCar['secondYearCosts'], 2) . ' $'; ?></td>
+        </tr>
+        <tr>
+            <th>Coût 3 ans (60,000km)</th>
+            <td><?php echo number_format($evCar['thirdYearCosts'], 2) . ' $'; ?></td>
+            <td><?php echo number_format($gasCar['thirdYearCosts'], 2) . ' $'; ?></td>
+        </tr>
+        <tr>
+            <th>Coût 4 ans (80,000km)</th>
+            <td><?php echo number_format($evCar['fourthYearCosts'], 2) . ' $'; ?></td>
+            <td><?php echo number_format($gasCar['fourthYearCosts'], 2) . ' $'; ?></td>
+        </tr>
+        <tr>
+            <th>Coût 5 ans (100,000km)</th>
+            <td><?php echo number_format($evCar['fifthYearCosts'], 2) . ' $'; ?></td>
+            <td><?php echo number_format($gasCar['fifthYearCosts'], 2) . ' $'; ?></td>
+        </tr>
+        <!--<tr>
             <th>Crédit d'impôt gouvernemental</th>
             <td><?php echo number_format($evCar['gov_rebate'], 2) . ' $'; ?></td>
             <td>0 $</td>
@@ -27,12 +57,12 @@
             <th>Autonomie</th>
             <td><?php echo $evCar['planned_autonomy'] . ' km'; ?></td>
             <td><?php echo $gasCar['planned_autonomy'] . ' km'; ?></td>
-        </tr>
+        </tr>-->
         <!--<tr>
             <th>Consommation par 100 km</th>
             <td><?php echo $evCar['avg_consumption_rate'] . ' kWh'; ?></td>
             <td><?php echo $gasCar['avg_consumption_rate'] . ' L'; ?></td>
-        </tr>-->
+        </tr>
         <tr>
             <th>Coût pour parcourir 100 km</th>
             <td title="Basé sur un coût de <?php echo $electricity_cost;?> $ par kWh"><?php echo number_format($evCar['onehundredkmcost'], 2) . ' $'; ?></td>
@@ -67,6 +97,7 @@
             <th title="Excluant les coûts reliés à l'entretien">Coût après 5 ans (20 000 km par an)</th>
             <td><?php echo number_format($evCar['after5yearscost'], 2) . ' $'; ?></td>
             <td><?php echo number_format($gasCar['after_tax_price'], 2) . ' $'; ?></td>
-        </tr>
+        </tr>-->
     </tbody>
 </table>
+<button class="btn btn-success" id="expand_btn">Afficher les détails du calcul</button>

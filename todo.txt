@@ -1,11 +1,8 @@
+CALCULATEUR 
+    AVOIR AFFICHAGE ABBRÉGÉ AU DÉBUT
+        ET POUVOIR EXPAND QUI EXPLIQUE TOUT LE CALCUL
 
-...ajout images (lien) à la BD ????
-
-pour downloader toutes les images d'un website ?
-    wget -r -A png,pdf http://www.website-name.com
-    tu le call sur la section où il y a tous les véhicules
-    après du trie selon la manière dont les photos sont nommées
-
+    IL FAUDRAIT FAIRE VARIER LES COÛTS D'ENTRETIEN SELON LES VÉHICULES À ESSENCE
 
 -Coût d'entretient estimé pour les différents véhicules (par année)
     400 par année ..
@@ -34,7 +31,6 @@ Canadian Electric Car Fast Facts
     Canada has more than 4,500 public charging stations, 150 of which are Level 3 fast chargers
     There are 23 models available for sale in Canada with more on the way
 
-
 Changement de pile à prévoir
 Changement des freins
 Coûts de réparations électrique vs essence (plus cher, car peu d'endroits où aller)
@@ -55,10 +51,5 @@ Meilleurs achats
     amateur de roadtrips
 
 
-
-
-    FAIRE BOT QUI VA CHERCHER LE PRIX DE L'ESSENCE 1 FOIS PAR JOUR SUR GASBUDDY http://www.montrealgasprices.com ET QUI UPDATE LA BD AVEC
-    FAIRE BOT QUI VA CHERCHER 1 FOIR PAR JOUR LE PRIX DE L'ÉLECTRICITÉ http://www.hydroquebec.com/residentiel/espace-clients/compte-et-facture/comprendre-facture/tarifs-residentiels-electricite/tarif-d.html
-        ...IL VÉRIFIE ENSUITE S'IL Y A UNE DIFFÉRENCE ENTRE ÇA ET 
     
 
