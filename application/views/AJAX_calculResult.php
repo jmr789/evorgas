@@ -19,9 +19,9 @@
             <td><?php echo number_format($gasCar['after_tax_price'], 2) . ' $'; ?></td>
         </tr>
         <tr class="details" hidden>
-            <th>Prix du véhicule</th>
-            <td><?php echo number_format($evCar['base_price'], 2) . ' $'; ?></td>
-            <td><?php echo number_format($gasCar['base_price'], 2) . ' $'; ?></td>
+            <th>Prix du véhicule (taxes incluses)</th>
+            <td><?php echo number_format($evCar['after_tax_price'], 2) . ' $'; ?></td>
+            <td><?php echo number_format($gasCar['after_tax_price'], 2) . ' $'; ?></td>
         </tr>
         <tr class="details" hidden>
             <th>Rabais gouvernementaux</th>

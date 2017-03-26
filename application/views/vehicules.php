@@ -63,7 +63,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                     <div class="car_text">
                         <p>
-                            La Nissan Leaf est sur le marché depuis quelques années déjà. Depuis la version 2016, elle permet une bien meilleure autonomie qui permet actuellement jsuqu'à 172 kilomètres. Très intéressant pour une voiture sous les 35 000$ à l'achat avant les rabais gouvernementaux. Cette voiture est excellente pour le commun des travailleurs, par contre, elle ne permet par un roadtrip Québec-Montréal sans s'arrêter pour recharger.
+                            La Nissan Leaf est sur le marché depuis quelques années déjà. Depuis la version 2016, elle permet une bien meilleure autonomie qui permet actuellement jusqu'à 172 kilomètres. Très intéressant pour une voiture sous les 35 000$ à l'achat avant les rabais gouvernementaux. Cette voiture est excellente pour le commun des travailleurs, par contre, elle ne permet par un roadtrip Québec-Montréal sans s'arrêter pour recharger.
                         </p>
                     </div>
                 </div>
@@ -85,7 +85,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                     <div class="car_text">
                         <p>
-                            Avec ses 150 kilomètres d'autonomie pour un pris de base de 37 000 $ avec les rabais gouvernementaux, la Kia Soul EV est un véhicule fort intéressant. Elle se démarque des autres avec sa prise à chargement de niveau 3 (480 Volts) qui permet de charger 80 % de la pile en seulement 33 minutes. Tout comme la Nissan Leaf, ce véhicule en est pas à sa première itération, ce qui a permis au fabriquant d'apporter plusieurs améliorations avec le temps.
+                            Avec ses 150 kilomètres d'autonomie pour un prix de base de 37 000 $ avec les rabais gouvernementaux, la Kia Soul EV est un véhicule fort intéressant. Elle se démarque des autres avec sa prise à chargement de niveau 3 (480 Volts) qui permet de charger 80 % de la pile en seulement 33 minutes. Tout comme la Nissan Leaf, ce véhicule en est pas à sa première itération, ce qui a permis au fabriquant d'apporter plusieurs améliorations avec le temps.
                         </p>
                     </div>
                 </div>
@@ -119,7 +119,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <img class="img-responsive" height="400" width="700" src="<?php echo base_url(); ?>../assets/images/vehicules/FOCUSEV2017.jpg">
                     </a>
                     <h3>
-                        <p>Ford Focus Electrique</hp>
+                        <p>Ford Focus Electrique (2017)</hp>
                     </h3>
                     <div class="car_som">
                         <ul>
@@ -131,7 +131,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                     <div class="car_text">
                         <p>
-                            
+                            La Ford Focus Electrique est une Ford Focus Hatchback avec un moteur électrique. Ses 122 kilomètres d'autonomie grâce à une pile de 34 kWh en font un VE moyen. Vous vous retrouvez avec un peu plus d'autonomie et de performance qu'une i-MiEV pour 3000 $ de plus.
                         </p>
                     </div>
                 </div>
@@ -153,6 +153,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                     <div class="car_text">
                         <p>
+                            La Tesla Model S est le deuxième véhicule électrique construit par Tesla. Il s'agit d'un véhicule dessiné et conçu pour être électrique ce qui lui donne un net avantage par rapport aux modèles qui sont seulement la version électrique d'une voiture à essence. Avec son prix élevé vient une autonomie plus que suffisante et des performances exceptionnelles. Les véhicules Tesla vous donnent également accès au réseau de Superchargers dont quelques stations sont déjà au Québec.
                         </p>
                     </div>
                 </div>
@@ -169,7 +170,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <h3>Véhicules bientôts disponibles</h3>
+                    <h3>Véhicules bientôt disponibles</h3>
                     <ul>
                         <li>Tesla Model 3</li>
                         <li>Volkswagen e-Golf</li>
