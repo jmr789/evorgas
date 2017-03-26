@@ -5,6 +5,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <?php include 'header.php'; ?>
 
+    <style type="text/css">
+
+    </style>
+
     <body>
 
         <?php include 'menu.php'; ?>
@@ -20,7 +24,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="row">
                 <div class="col-md-4 portfolio-item">
                     <a href="#">
-                        <!--<img class="img-responsive" src="http://placehold.it/700x400" alt="">-->
                         <img class="img-responsive" height="400" width="700" src="<?php echo base_url(); ?>../assets/images/vehicules/BOLT2017.jpg">
                     </a>
                     <div class="car_info">
@@ -37,7 +40,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                         <div class="car_text">
                             <p>
-                                La Chevrolet Bolt est le premier véhicule électrique abordable avec une autonomie aussi élevée à être disponible sur le marché. Avec une pile Lithium-ion de 60 kWh
+                                La Chevrolet Bolt est le premier véhicule électrique abordable avec une autonomie aussi élevée à être disponible sur le marché. Avec une pile Lithium-ion de 60 kWh, l'autonomie devrait dépasser les 350 kilomètres. Sur une prise de chargement de niveau 2, 9.5 heures suffisent au chargement. La Chevrolet Bolt est considérée comme le principal compétitif de la Tesla Model 3 qui sera disponible dès cette année.
                             </p>
                         </div>
                     </div>
@@ -48,16 +51,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <img class="img-responsive" height="400" width="700" src="<?php echo base_url(); ?>../assets/images/vehicules/LEAF2017.jpg">
                     </a>
                     <h3>
-                        <h2>Nissan Leaf (S)</h2>
+                        <p>Nissan Leaf (S 2017)</p>
                     </h3>
-                    <p>
+                    <div class="car_som">
                         <ul>
                             <li>33 998 $ (PDSF)</li>
                             <li>172km d'autonomie</li>
                             <li>Pleine charge en 4 heures (240V)</li>
                             <li>0-100 km/h en 11.3s</li>
                         </ul>
-                    </p>
+                    </div>
+                    <div class="car_text">
+                        <p>
+                            La Nissan Leaf est sur le marché depuis quelques années déjà. Depuis la version 2016, elle permet une bien meilleure autonomie qui permet actuellement jsuqu'à 172 kilomètres. Très intéressant pour une voiture sous les 35 000$ à l'achat avant les rabais gouvernementaux. Cette voiture est excellente pour le commun des travailleurs, par contre, elle ne permet par un roadtrip Québec-Montréal sans s'arrêter pour recharger.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="col-md-4 portfolio-item">
@@ -65,16 +73,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <img class="img-responsive" height="400" width="700" src="<?php echo base_url(); ?>../assets/images/vehicules/SOULEV2017.jpg">
                     </a>
                     <h3>
-                        <h2>Kia Soul EV</h2>
+                        <p>Kia Soul EV</p>
                     </h3>
-                    <p>
+                    <div class="car_som">
                         <ul>
                             <li>37 250 $ (PDSF)</li>
                             <li>150km d'autonomie</li>
                             <li>Pleine charge en 5 heures (240V)</li>
                             <li>0-100 km/h en 10.6s</li>
                         </ul>
-                    </p>
+                    </div>
+                    <div class="car_text">
+                        <p>
+                            Avec ses 150 kilomètres d'autonomie pour un pris de base de 37 000 $ avec les rabais gouvernementaux, la Kia Soul EV est un véhicule fort intéressant. Elle se démarque des autres avec sa prise à chargement de niveau 3 (480 Volts) qui permet de charger 80 % de la pile en seulement 33 minutes. Tout comme la Nissan Leaf, ce véhicule en est pas à sa première itération, ce qui a permis au fabriquant d'apporter plusieurs améliorations avec le temps.
+                        </p>
+                    </div>
                 </div>
             </div>
 
@@ -84,16 +97,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <img class="img-responsive" height="400" width="700" src="<?php echo base_url(); ?>../assets/images/vehicules/IMIEV2017.jpg">
                     </a>
                     <h3>
-                        <h2>Mitsubishi i-MiEV (ES)</h2>
+                        <p>Mitsubishi i-MiEV (ES 2017)</p>
                     </h3>
-                    <p>
+                    <div class="car_som">
                         <ul>
                             <li>29 817 $ (PDSF)</li>
                             <li>96km d'autonomie</li>
                             <li>Pleine charge en 7 heures (240V)</li>
                             <li>0-100 km/h en 15.2s</li>
                         </ul>
-                    </p>
+                    </div>
+                    <div class="car_text">
+                        <p>
+                            La Mitsubhishi i-MiEV est le véhicule électrique le moins cher affiché ici avec un prix de base avoisinant les 30 000 $ avec les rabais gouvernementaux. Sans surprise, un prix aussi bas signifie moins d'options et moins d'autonomie. Néanmoins, ses maigres 96 kilomètres d'autonomie sont amplement suffisants pour répondre aux besoins quotidiens de la plupart des travailleurs québécois.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="col-md-4 portfolio-item">
@@ -101,16 +119,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <img class="img-responsive" height="400" width="700" src="<?php echo base_url(); ?>../assets/images/vehicules/FOCUSEV2017.jpg">
                     </a>
                     <h3>
-                        <h2>Ford Focus Electrique</h2>
+                        <p>Ford Focus Electrique</hp>
                     </h3>
-                    <p>
+                    <div class="car_som">
                         <ul>
                             <li>33 248 $ (PDSF)</li>
                             <li>122km d'autonomie</li>
                             <li>Pleine charge en 3.6 heures (240V)</li>
                             <li>0-100 km/h en 10.5s</li>
                         </ul>
-                    </p>
+                    </div>
+                    <div class="car_text">
+                        <p>
+                            
+                        </p>
+                    </div>
                 </div>
 
                 <div class="col-md-4 portfolio-item">
@@ -118,16 +141,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <img class="img-responsive" height="400" width="700" src="<?php echo base_url(); ?>../assets/images/vehicules/MODELS2017.jpg">
                     </a>
                     <h3>
-                        <h2>Tesla Model S (60)</h2>
+                        <p>Tesla Model S (60)</p>
                     </h3>
-                    <p>
+                    <div class="car_som">
                         <ul>
                             <li>98 500 $</li>
                             <li>338km d'autonomie</li>
                             <li>Pleine charge en 6.8 heures (240V)</li>
                             <li>0-100 km/h en 5.8s</li>
                         </ul>
-                    </p>
+                    </div>
+                    <div class="car_text">
+                        <p>
+                        </p>
+                    </div>
                 </div>
             </div>
             <hr />

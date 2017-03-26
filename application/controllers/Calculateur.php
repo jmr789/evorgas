@@ -94,16 +94,15 @@ class Calculateur extends CI_Controller {
 		$gasCar['thirdYearCosts'] = round($gasCar['secondYearCosts'] + $totalYearExpenses, 2);
 		$gasCar['fourthYearCosts'] = round($gasCar['thirdYearCosts'] + $totalYearExpenses, 2);
 		$gasCar['fifthYearCosts'] = round($gasCar['fourthYearCosts'] + $totalYearExpenses, 2);
-		//TO MENTION : AFTER 5 YEARS...APPROX ADD NEW BATTERTY COSTS
+		//TO MENTION : AFTER 5 YEARS...APPROX ADD Timing belt, water pump 900-1000$ for both
 
 		//Some calculations peg this to about 3 or 4 cents per mile of maintenance cost in an EV versus closer to 6 cents in an internal combustion car. 
 		//But it’s hard to know for certain.
 
 		return $gasCar;
-
 	}
 
-	public function loadAjaxResults() 
+	public function loadAjaxResults()
 	{
 		$this->load->model('Cars_model');
 
@@ -111,42 +110,6 @@ class Calculateur extends CI_Controller {
 		$data['gasCar'] = $this->computePricingGas($this->input->post('gas'));
 
 		$this->load->view('AJAX_calculResult', $data);
-
-		/*$evCar = $this->Cars_model->get_electric_cars_data_by_id($this->input->post('ev'));
-		$gasCar = $this->Cars_model->get_gas_cars_databy_id($this->input->post('gas'));
-
-		$evCar['after_tax_price'] = $evCar['after_tax_price'];
-		$evCar['gov_rebate'] = $evCar['gov_rebate'];
-		$evCar['after_rebate_price'] = $evCar['after_rebate_price'];
-		$gasCar['after_tax_price'] =$gasCar['after_tax_price'];
-
-		$gasPrice = $this->Cars_model->get_gas_prices_by_type('regular')[0]['price'];
-		$electricityPrice = $this->Cars_model->get_electricity_prices()[0]['price'];
-
-		$evCar['fill_cost'] = $electricityPrice * $evCar['battery_size'];
-		$gasCar['fill_cost'] = $gasPrice * $gasCar['tank_size'];
-
-		$evCar['onehundredkmcost'] = round($evCar['avg_consumption_rate'] * $electricityPrice, 2);
-		$gasCar['onehundredkmcost'] = round($gasPrice * $gasCar['avg_consumption_rate'], 2);
-
-		$evCar['twentykkmcost'] = round($evCar['onehundredkmcost'] * 200, 2);
-		$gasCar['twentykkmcost'] = round($gasCar['onehundredkmcost'] * 200, 2);
-
-		$yearlyeconomy = round(($gasCar['onehundredkmcost'] - $evCar['onehundredkmcost']) * 200);
-
-		$after1yeareconomy = round($evCar['after_rebate_price'] - $yearlyeconomy, 2);
-		$after3yearseconomy = round($evCar['after_rebate_price'] - $yearlyeconomy * 3, 2);
-		$after5yearseconomy = round($evCar['after_rebate_price'] - $yearlyeconomy * 5, 2);
-
-		$evCar['twentykkmeconomy'] = $yearlyeconomy;
-		$evCar['after1yearcost'] = $after1yeareconomy;
-		$evCar['after3yearscost'] = $after3yearseconomy;
-		$evCar['after5yearscost'] = $after5yearseconomy;
-
-		$data['evCar'] = $evCar;
-		$data['gasCar'] = $gasCar;
-		$data['electricity_cost'] = $electricityPrice;
-		$data['gas_cost'] = $gasPrice;*/
 	}
 
 }

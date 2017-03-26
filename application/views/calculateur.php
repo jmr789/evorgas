@@ -68,7 +68,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 });
             });
             $('#expand_btn').click(function(){
-                //BLABLAH
+                $('.details').toggle();
             });
         });
 </script>
