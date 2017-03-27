@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Essentiels extends CI_Controller {
+class Essentiels extends MY_Controller {
 
 	public function index()
 	{

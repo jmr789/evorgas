@@ -1,8 +1,33 @@
 CALCULATEUR 
-    AVOIR AFFICHAGE ABBRÉGÉ AU DÉBUT
-        ET POUVOIR EXPAND QUI EXPLIQUE TOUT LE CALCUL
+    IL FAUDRAIT FAIRE VARIER LES COÛTS D'ENTRETIEN SELON LES VÉHICULES (luxe plus cher...etc)
 
-    IL FAUDRAIT FAIRE VARIER LES COÛTS D'ENTRETIEN SELON LES VÉHICULES À ESSENCE
+    AJOUTER LIEN DE PARTAGE DU CALCUL ENTRE DEUX VÉHICULES
+
+TESLA MODEL S MAINTENANCE COSTS
+    There was a thread started on the Tesla Forum boards regarding what the maintenance fee would be per year for the Model S. 
+    I called a couple stores today and was surprised to find out they still don't know what the maintenance fee was or if there was any at all. 
+    One store said it would be $300/year and the other store said $1200/year because you needed 2 checkups per year. I was under the assumption that
+     the upkeep and repair of the Model S would be far lower than an ICE car, so am surprised/confused that the maintenance fee would be anything above 
+     $200-$300 per year. at $500+, that seems like a premium to normal maintenance costs of an ICE, not a discount. Does anybody know what the yearly 
+     maintenance fee is going to be if anything at all? Thanks
+
+     I asked this question at the WDC event today and was told $600 per year.
+
+     I believe in the video of the shareholders meeting, Elon said $50/month. (x 12 = $600/year).
+
+     Considering I will be saving over $3k a year on gas alone, paying $600 for maintenance that is mostly done at your own home or place of work (which tesla has repeatedly talked about) is well worth it.
+
+     Assuming they do multiple software upgrades and monitor the vehicles, someone has to pay the programmers and the people who handle the alerts from the monitoring systems. 
+     $600 seems "high but bearable" if there really are frequent software updates (one every four to five weeks).
+
+     The BMW 550 I purchased in 2006 (first year for that engine) came with 3 years of free maintenance. Dealer updated various software components three times 
+     (each event took 2-3 hours of shop time). Replaced several sets of wipers at no charge. Fixed minor rattles twice. No charge for any of this. This is what I would expect from Tesla.
+    Of course, the next three years of ownership had $1500 brakes, $1800 transmission oil pan, $150 oil changes x 3, etc. THATS where our real savings will be.
+
+
+
+
+
 
 -Coût d'entretient estimé pour les différents véhicules (par année)
     400 par année ..
@@ -49,6 +74,8 @@ Meilleurs achats
     banlieusard
     campagnard (pas trop recommandé, sauf si bcp de $$$$$)
     amateur de roadtrips
+
+Add Tesla Roadster
 
 
     
